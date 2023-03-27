@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background:url('1.jpeg') no-repeat;
+    background:url('horse.mp4') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -20,7 +20,7 @@ body {
 header {
     position: fixed;
     top: 0;
-    left: 0;
+    left: 100;
     width: 100%;
     padding: 20px 100px;
     display: flex;
@@ -31,8 +31,9 @@ header {
 }
 
 .logo {
-    font-size: 2em;
-    color: #ffff;
+    font-size: 3em;
+    height: 20px;
+    color: #fff;
     user-select: none;
 }
 
