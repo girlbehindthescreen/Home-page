@@ -12,18 +12,19 @@
 </head>
 <body>
 <h1>
-  <p>Welcome to the MARBEL<br> Join us and explore nature at it's finest<br> 
+  <p>ARE YOU READY<br><strong>Check this out</strong> <p>High quality products</p> 
   </p>
 </h1>
           
     <header>
-        <h2 class="logo">Marbel</h2>
+        <h2 class="logo"><img src="./feet.png" alt="shoe logo"></h2>
         <nav class="navigation">
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">Services</a>
             <a href="#">Contact</a>
-            <button class="btnLogin-popup">Login</button>
+            <a href="#">PRODUCT</a>  
+            <button class="btnLogin-popup">login</button>
         </nav>
     </header>
 
@@ -48,14 +49,13 @@
                 <label><input type="checkbox">Remember me</label>
                 <a href="#">Forgot Password?</a>
             </div>
-            <button onclick="showAlert()" class="btn">Login</button>
-
+            <button onclick="showAlert()">Login</button>
             <script>
-                function showAlert(){
-                    alert("Welcome!");
+                function showAlert() {
+                  alert ("Successful!");
                 }
-            </script>
-
+                </script>
+            
             <div class="login-registration">
                 <p>Don't have an account?<a href="#" class="register-link">Register</a></p>
             </div>
@@ -85,15 +85,8 @@
                 </div>
                 <div class="remember-forgot">
                 <label><input type="checkbox">agree to the terms & conditions</label>
-    
+                <button onclick="showAlert()">register</button>
             </div>
-            <button onclick="showAlert()" class="btn">Register</button>
-
-            <script>
-                function showAlert(){
-                    alert("Successful!");
-                }
-            </script>
 
             <div class="login-registration">
                 <p>Aready have an account?<a href="#" class="login-link">Login</a></p>
@@ -102,7 +95,32 @@
         </div>
     </div>
 
+    <section class="main">
 
+        <section class="right">
+            <img src="./pink.png" alt="Shoes">
+            <div class="colors">
+                <div class="item pink active">
+                    <div class="color-selector"></div>
+                    <div class="additional-info">
+                        <p>Pink sneakers</p>
+                        <p>$322.99</p>
+                        <p>Comfortable sole with laces(shoe) of choice.</p>
+                    </div>
+                    <img src="./pink_small.png" >
+                </div>
+                <div class="item blue">
+                    <div class="color-selector"></div>
+                    <img src="./blue_small.png" >
+                </div>
+                <div class="item yellow">
+                    <div class="color-selector"></div>
+                    <img src="./yellow_small.png" >
+                </div>
+            </div>
+        </section>
+
+    </section>
 
     <script src="script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
